@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(167, 235, 252);
+            color: white; /*comentario em css*/
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--Comentario em html-->
+    <p>questionamento do dia quanto tempo devo levar para conseguir o que qero?
+    </p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Digite um numero: '))
+        var n2 = parseFloat(window.prompt('Digite outro numero: '))
+        var n3 = Number(window.prompt('Digite um ultimo valor: '))
+        var s = n1 + n2 + n3
+        window.alert(`A soma entre os valores  ${n1}, ${n2} e ${n3} valores é igual a ${s}. `)        
+        // (number + number) para adição
+        // (string + string) para contanenação
+    </script>
+</body>
+</html>
